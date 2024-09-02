@@ -15,28 +15,49 @@
     <!-- ============= FONT AWESOME ============= -->
 
     <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- ======== MAIN CSS ========= -->
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ==============Bootstrap=============== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
     <!-- /* ============ NAVBAR PART START=========== */ -->
 
-    <nav id="navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg">
       <div class="container">
-        <div class="nav-wrapper">
-          <div class="logo">
-            <img src="images/logo.png" alt="logo" />
-          </div>
-          <div class="nav-items">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Properties</a></li>
-              <li><a href="#">Contact </a></li>
-            </ul>
-          </div>
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler navbar-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon navbar-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -202,7 +223,8 @@
               <img src="images/image 7.jpg" alt="house" />
               <h5>South Grove</h5>
               <p>
-                1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12440
+                1 No.1, RT.1/RW.1, Lb. Bulus, Kec. Cilandak, Kota Jakarta
+                Selatan, Daerah Khusus Ibukota Jakarta 12440
               </p>
             </div>
           </div>
@@ -214,58 +236,56 @@
 
     <!-- /* ============ footer part START=========== */ -->
 
-        <section id="footer">
-            <div class="container">
-                <div class="footer-wrapper">
-                    <div class="footer-left">
-                        <h6>Hubungi Kami</h6>
-                       <div class="number-box-wrapper">
-                         <div class="number-box">
-                            <i class="fa-solid fa-phone"></i>
-                            <h6>Call</h6>
-                            <p>+6281232936733</p>
-                            <a href="#">Call Now</a>
-                        </div>
+    <section id="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-left">
+            <h6>Hubungi Kami</h6>
+            <div class="number-box-wrapper">
+              <div class="number-box">
+                <i class="fa-solid fa-phone"></i>
+                <h6>Call</h6>
+                <p>+6281232936733</p>
+                <a href="#">Call Now</a>
+              </div>
 
-                         <div class="number-box">
-                            <i class="fa-solid fa-phone"></i>
-                            <h6>Call</h6>
-                            <p>+6281232936733</p>
-                            <a href="#">Call Now</a>
-                        </div>
-                       </div>
-
-                    </div>
-                    <div class="footer-right">
-                        <h5>Penghargaan</h5>
-                        <img src="images/image 8.png" alt="footer-img">
-                    </div>
-
-                </div>
+              <div class="number-box">
+                <i class="fa-solid fa-phone"></i>
+                <h6>Call</h6>
+                <p>+6281232936733</p>
+                <a href="#">Call Now</a>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="footer-right">
+            <h5>Penghargaan</h5>
+            <img src="images/image 8.png" alt="footer-img" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- /* ============ footer part END=========== */ -->
 
     <!-- /* ============ footer-bootom part start=========== */ -->
 
-     <section id="footer-bottom">
-        <div class="container">
-            <div class="footer-bottom-wrapper">
-                <div class="logo">
-                    <img src="images/footer-logo.png" alt="logo">
-                </div>
-                <div class="social">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-tumblr"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-
-                </div>
-            </div>
+    <section id="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-wrapper">
+          <div class="logo">
+            <img src="images/footer-logo.png" alt="logo" />
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-tumblr"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
 
     <!-- /* ============ footer-bootom part END=========== */ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

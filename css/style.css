@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif !important;
 }
 .container {
   width: 1166px;
@@ -17,45 +17,24 @@
 /* ============ NAVBAR CSS START=========== */
 
 #navbar {
-  width: 100%;
-  padding-top: 57px;
+  padding-top: 54px;
   background: #eeedde;
 }
-#navbar .nav-wrapper {
-  display: flex;
-  flex-direction: row;
+#navbar .nav-link {
+  padding-left: 100px;
 }
-#navbar .nav-wrapper .logo {
-  width: 20%;
-}
-#navbar .nav-wrapper .nav-items {
-  width: 80%;
-}
-#navbar .nav-wrapper .nav-items ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-#navbar .nav-wrapper .nav-items ul li {
-  margin-left: 100px;
-}
-#navbar .nav-wrapper .nav-items ul li a {
+#navbar .nav-link a {
   color: #203239;
 
   /* Text1 Light */
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
-#navbar .nav-wrapper .nav-items ul li a:hover {
-  color: #203239;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
+#navbar .nav-link a:hover {
   font-weight: 600;
-  line-height: normal;
 }
 
 /* ============ NAVBAR CSS END=========== */
@@ -462,22 +441,21 @@
 
 /* ============ footer-bottom CSS start=========== */
 
-#footer-bottom{
-    background: #203239;
-
+#footer-bottom {
+  background: #203239;
 }
-.footer-bottom-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.social i{
-    margin-left: 64px;
-    color: #eeedde;
-    font-size: 24px;
-    align-self: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.social i {
+  margin-left: 64px;
+  color: #eeedde;
+  font-size: 24px;
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* ============ footer-bottom CSS END=========== */
